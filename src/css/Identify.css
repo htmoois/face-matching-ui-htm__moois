@@ -1,0 +1,122 @@
+
+.table-container-id { 
+    width: 100%;
+    height: 60vh;
+    border-radius: 4px;
+}
+.table-container-id .box{
+    margin-top: 1vh;
+    width: 24vw;
+    height: 45vh;
+    margin-left: 1.5vw;
+    border-radius: 4px;
+}
+#box-urlErrorFalse{
+    border: 2px solid #6CB9D4;
+}
+#box-urlErrorTrue{
+    border: 2px solid #e68484;
+}
+.table-container-id .container-camera{
+    display: flex;
+}
+.leftSide-tableId{
+    width: 70%;
+}
+.rightSide-tableId{
+    width: 30%;
+    margin: 1vh;
+}
+.subcontainID-img{
+    display: flex;
+    margin-top: 1vh;
+    cursor: pointer;
+    width: fit-content;
+    margin-left: 1.5vw;
+}
+.subcontainID-img .text{
+    padding-top: 0.5vh;
+}
+.subcontainID-img .textID{
+    padding-top: 1.5vh;
+}
+.table-container-id .button-id{
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 1vw;
+}
+.table-container-id .button-id input[type="button"]{
+    color: #fff;
+    font-size: 1.7vh;
+    font-weight: 1000;
+    outline: none;
+    border: none;
+    padding: 1.2vh 1.1vw;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.table-id {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    cursor: pointer;
+}
+
+.table-id th,
+.table-id td {
+    padding: 1.2vh;
+    text-align: left;
+    border-bottom: 2px solid #6CB9D4;
+}
+
+.table-id th {
+    background-color: #b5dce9;
+    font-weight: bold;
+    text-align: space-between;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.table-id tr:hover {
+    background-color: #f5f5f5;
+}
+
+.table-id tr:active {
+    background-color: #7ac0d8;
+}
+.table-id tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.table-id th:nth-child(1),
+.table-id td:nth-child(1) {
+    width: 2vw;
+    text-align: center;
+    align-items: center;
+}
+.table-id th:nth-child(2),
+.table-id td:nth-child(2) {
+    width: 10vw;
+    text-align: center;
+    align-items: center;
+}
+.table-id th:nth-child(3),
+.table-id td:nth-child(3) {
+    width: 15vw;
+}
+.table-id th:nth-child(4),
+.table-id td:nth-child(4) {
+    width: 5vw;
+    text-align: center;
+}
+.table-id th:nth-child(5),
+.table-id td:nth-child(5) {
+    width: 4vw;
+    text-align: center;
+}
+
+.table-id tbody tr:hover {
+    background-color: #ebebeb;
+}

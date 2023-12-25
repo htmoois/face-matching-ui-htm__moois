@@ -1,0 +1,75 @@
+.container-cancel{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3); /* Độ mờ và màu sắc nền mờ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10002;
+}
+.container-cancel .container-cancelDialog{
+    background: white;
+    width: 600px;
+    height: 200px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 10003;
+    align-items: center;
+}
+.container-cancel .title{
+    margin-left: 60px;
+    color: #379abc;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: left;
+}
+.container-cancel .text{
+    margin-left: 75px;
+    color: black;
+    font-size: 16px;
+    margin-top: 5px;
+    text-align: left;
+    margin-right: 25px;
+}
+.container-cancel .sub{
+    display: flex;
+    top: 45px;
+    position: relative;
+    left: 405px;
+}
+.button-cancel{
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.button-cancel input[type="button"]{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 1000;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.blue-cancel
+{
+    background-color: #379abc;
+}
+.red-cancel
+{
+    background-color: #e68484;
+}
+#blue-cancel:hover
+{
+    background:	#0b5394;
+}
+#red-cancel:hover{
+    background-color: #cc0000;
+}
